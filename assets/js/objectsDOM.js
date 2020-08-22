@@ -6,7 +6,6 @@ const DOM = () => {
   const pop = document.getElementsByClassName('position-absolute')[0];
   const slots = document.getElementsByClassName('slot');
 
-
   const modifyElementsDOM = (name1) => {
     containers[1].classList.add('d-none');
     screen.classList.add('d-none');
