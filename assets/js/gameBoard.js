@@ -21,58 +21,58 @@ const gameBoard = () => {
   const checkWin = (player, arr = false) => {
     const board2 = arr || board;
     if (
-      board2[0] !== '' &&
-      board2[0] === board2[1] &&
-      board2[1] === board2[2]
+      board2[0] !== ''
+      && board2[0] === board2[1]
+      && board2[1] === board2[2]
     ) {
       return true;
     }
     if (
-      board2[3] !== '' &&
-      board2[3] === board2[4] &&
-      board2[4] === board2[5]
+      board2[3] !== ''
+      && board2[3] === board2[4]
+      && board2[4] === board2[5]
     ) {
       return true;
     }
     if (
-      board2[6] !== '' &&
-      board2[6] === board2[7] &&
-      board2[7] === board2[8]
+      board2[6] !== ''
+      && board2[6] === board2[7]
+      && board2[7] === board2[8]
     ) {
       return true;
     }
     if (
-      board2[0] !== '' &&
-      board2[0] === board2[3] &&
-      board2[3] === board2[6]
+      board2[0] !== ''
+      && board2[0] === board2[3]
+      && board2[3] === board2[6]
     ) {
       return true;
     }
     if (
-      board2[1] !== '' &&
-      board2[1] === board2[4] &&
-      board2[4] === board2[7]
+      board2[1] !== ''
+      && board2[1] === board2[4]
+      && board2[4] === board2[7]
     ) {
       return true;
     }
     if (
-      board2[2] !== '' &&
-      board2[2] === board2[5] &&
-      board2[5] === board2[8]
+      board2[2] !== ''
+      && board2[2] === board2[5]
+      && board2[5] === board2[8]
     ) {
       return true;
     }
     if (
-      board2[0] !== '' &&
-      board2[0] === board2[4] &&
-      board2[4] === board2[8]
+      board2[0] !== ''
+      && board2[0] === board2[4]
+      && board2[4] === board2[8]
     ) {
       return true;
     }
     if (
-      board2[2] !== '' &&
-      board2[2] === board2[4] &&
-      board2[4] === board2[6]
+      board2[2] !== ''
+      && board2[2] === board2[4]
+      && board2[4] === board2[6]
     ) {
       return true;
     }
