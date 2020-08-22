@@ -43,7 +43,7 @@ const init = (name1, name2) => {
           player1,
           board,
           slot,
-          player1turn
+          player1turn,
         );
         player1turn = status;
         if (!player1turn) {
@@ -56,7 +56,7 @@ const init = (name1, name2) => {
           player2,
           board,
           slot,
-          player1turn
+          player1turn,
         );
         player1turn = status;
         if (player1turn) {
@@ -69,7 +69,7 @@ const init = (name1, name2) => {
 };
 
 const startBtn = document.getElementById('startBtn');
-startBtn.addEventListener('click', (e) => {
+startBtn.addEventListener('click', e => {
   e.preventDefault();
   const inputs = document.getElementsByTagName('input');
 
