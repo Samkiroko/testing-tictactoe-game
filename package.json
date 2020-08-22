@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Flakster/JS-TicTactoe.git"
+    "url": "git+https://github.com/Samkiroko/testing-tictactoe-game.git"
   },
   "author": "Ferm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Flakster/JS-TicTactoe/issues"
+    "url": "https://github.com/Samkiroko/testing-tictactoe-game/issues"
   },
-  "homepage": "https://github.com/Flakster/JS-TicTactoe#readme",
+  "homepage": "https://github.com/Samkiroko/testing-tictactoe-game#readme",
   "dependencies": {
     "live-server": "^1.2.1",
     "webpack-dev-server": "^3.11.0"
